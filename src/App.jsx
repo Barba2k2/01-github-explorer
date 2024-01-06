@@ -1,13 +1,12 @@
 import React from "react";
-import "./styles/global.scss";
 import { RepositoryList } from "./components/RepositoryList";
-import { Counter } from "./components/Counter";
+
+import "./styles/global.scss";
 
 export function App() {
   return (
     <>
       <RepositoryList />
-      <Counter />
     </>
   );
 }
